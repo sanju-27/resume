@@ -1,0 +1,252 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+\ifxetexorluatex
+  \setmainfont{Carlito}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+\addbibresource{sample.bib}
+
+\begin{document}
+% \setlist{leftmargin=*,labelsep=0.5em,nosep,itemsep=0.25\baselineskip,after=\vskip0.25\baselineskip}
+\name{SANJAY BHARATHI SUBRAMANIAN}
+\tagline{\emph{SDE at ZOHO | AI Enthusiast | Backend Developer}}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+%\photo{3.3cm}{profile.jpg}
+
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{sanjaystz98@gmail.com}
+  \phone{+91 9159930685}
+%  \mailaddress{Address, Street, 00000 County}
+%  \location{Guna, Madhya Pradesh - India}
+%  \homepage{marissamayr.tumblr.com/}
+%  \twitter{@marissamayer}
+  \linkedin{www.linkedin.com/in/sanju27}
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\color{body!30}\hdashrule{\linewidth}{0.6pt}{0.5ex}\par \color{body}
+% \textcolor{body!30}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}
+\smallskip
+\cvsection{About me}
+This is some text 
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Experience}
+
+\cvevent{Zoho Corporation -- Member Technical Staff}{Manage Engine}{December 2019 -- Present}{Chennai, India}
+\begin{itemize}
+\item Integrations between Endpoint Central On-Premise and Cloud with Jira, Zendesk, FreshDesk, ServiceNow, ServiceDeskPlus, ServiceDeskPlus MSP, Asset Explorer, Analytics Plus and Microsoft Office 365.
+\smallskip
+\item Mentored team of 3 and co-ordinated teams to enhance integrations.
+\smallskip
+\item Identified and fixed major Security issues in Endpoint Central.
+\smallskip
+\item Module Owner of Endpoint Central - Third Party Integrations.
+\smallskip
+\item Single-handedly migrated Integrations module from On-Premise only architecture to a Cloud-first architecture increasing the inflow of leads.
+\smallskip
+\item Implemented Cloud support for ServiceNow - Endpoint Central Integration, increasing monthly downloads by 8x.
+\end{itemize}
+
+%\divider
+
+
+%\divider
+
+\cvsection{INTERNSHIPS}
+\smallskip
+\cvevent{Zoho Corporation -- Summer Intern}{Manage Engine}{Jun 2019 -- Jul 2019}{Chennai, India}
+\begin{itemize}
+    \item Designed and developed APIs, databases, and Console Applications
+\end{itemize}
+\smallskip
+\cvevent{Bennett University -- Research Intern}{NVIDIA Supercomputer Lab for Deep learning}{Dec 2018 -- Jan 2019}{Chennai, India}
+\begin{itemize}
+    \item Developed a Deep Learning model for Video Super-resolution using ResNet.
+    \item Was recognized as the best project among 20 other teams.
+\end{itemize}
+ 
+ \cvsection{Publications}
+ \smallskip
+ \large{\faFileTextO \ Research Paper}
+--
+ \normalsize
+ \smallskip
+ \textbf{“A Comparison of Deep Learning Algorithms for Plant Disease Classification.”}
+ \linebreak
+ \emph{Springer LNEE, V 643 -  Advances in Cybernetics, Cognition, and Machine Learning for Communication Technologies (2020): 153 - 161\linebreak
+DOI: https://doi.org/10.1007/978-981-15-3125-5}
+
+\smallskip
+ \large{\faFileTextO \ Poster}
+--
+ \normalsize
+ \smallskip
+ \textbf{
+“Deep Learning in Automobiles.”}
+\linebreak
+ \emph{IEEE 8th International Advanced Computing Conference (2018)}
+
+
+%  \printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}}, type=article]
+
+
+% \cvsection{TECHNICAL SKILLS}
+% \smallskip
+
+% \begin{itemize}
+% \item MATLAB, Xilinx ISE 12.1, MS Office, Proteus, Arduino
+% \smallskip
+% \item C,C++,Java,Python(Beginner)
+% \smallskip
+% \end{itemize}
+
+% \cvsection{PERSONAL SKILLS}
+% \smallskip
+% \begin{itemize}
+% \item Having Leadership Qualities.
+% \smallskip
+% \item Ability to work under pressure.
+% \smallskip
+% \item Comfortable Working Independently.
+% \smallskip
+% \item Ability to take initiative to solve problems.
+% \end{itemize}
+
+% \cvsection{Hobbies}
+% \smallskip
+% \begin{itemize}
+% \item Playing badminton and video games.
+% \smallskip
+% \item Listening to Music.
+% \smallskip
+% \item Exploring Places.
+% \end{itemize}
+% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
+
+% \begin{itemize}
+% \item Joined the company as employe \#20 and female employee \#1
+% \item Developed targeted advertisement in order to use user's search queries and show them related ads
+% \end{itemize}
+
+%\cvsection{A Day of My Life}
+%\wheelchart{26/cyan/Corporate,  28/orange/Plastique, 33.5/yellow/Chimique, 12.5/blue!50!red/Rhodia}
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+% Some ad-hoc tweaking to adjust the labels so that they don't overlap
+% \wheelchart{1.5cm}{0.5cm}{%
+%   10/10em/accent!30/Sleeping \& dreaming about work,
+%   25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
+%   5/13em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
+%   20/15em/accent!40/Spending time with family,
+%   5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
+%   30/9em/accent/Showing Yahoo!\ employees that their work has meaning,
+%   5/8em/accent!20/Baking cupcakes
+% }
+
+\clearpage
+
+\begin{fullwidth}
+
+\cvsection{Projects}
+\cvprojects{\textbf{DesktopCentral App for Jira Cloud} \emph{(Industry project)}}{}{May 2020}{}
+\begin{itemize}
+\item A Plugin for Jira Cloud users to enable DesktopCentral from their IT Service Management portal. Using this app, technicians can perform DesktopCentral actions like Remote Control, Deploy software directly from Jira console.
+\end{itemize}
+\smallskip
+\smallskip
+\cvprojects{\textbf{Leaf Disease Identification} \emph{(Academic project)}}{}{May 2019}{}
+\begin{itemize}
+\item A Deep learning project that identifies the disease present in a leaf using Convolutional Neural Networks. The model is trained and validated to an accuracy of 96\% and deployed in mobile and web apps.
+\end{itemize}
+\smallskip
+\smallskip
+\cvprojects{\textbf{Predictive Maintenance of Pharmaceutical Equipment} \emph{(Personal project)}}{}{Mar 2019}{https://github.com/sanju-27/LSTM-probability-of-failure}
+\begin{itemize}
+\item A Deep Learning project that predicts the Time to Failure of machines using Recurrent Neural Networks analyzing their vital parameters and displays various details on a comprehensive dashboard web app.
+\end{itemize}
+\smallskip
+\smallskip
+\cvprojects{\textbf{Video Super-Resolution} \emph{(Personal project)}}{}{Dec 2018}{https://github.com/sanju-27/Video-Super-Resolution}
+\begin{itemize}
+\item A Deep learning project that upscales a low-resolution video into a high-resolution video. Each video frame is upscaled individually using an SRCNN model to convolute the layers into a higher resolution.
+\end{itemize}
+\smallskip
+\smallskip
+\cvprojects{\textbf{Border Alert System for Fishermen and Coast Guard} \emph{(Personal project)}}{}{Jun 2017}{}
+\begin{itemize}
+\item A smart system that triggers an alarm to a fisherman if he crosses into international waters and alerts the nearby Coast Guard of the situation along with the location of the boat. Location is obtained using GPS data and communication is done through a custom mesh network of radio transmitters designed by our team.
+\end{itemize}
+\smallskip
+\smallskip
+\cvprojects{\textbf{Autonomous and Controlled flight of Quadcopter} \emph{(Academic project)}}{}{Jan 2017}{}
+\begin{itemize}
+\item Designed and modeled a quadcopter that is capable of Controlled and Autonomous flight through roadmaps uploaded to the drone through a mobile app
+\end{itemize}
+\smallskip
+\smallskip
+
+\cvsection{Positions of Responsibility}
+\cvposition{\textbf{Secretary --} \emph{Turing Techies}}{Artificial Intelligence Club}{2018 -- 2019}{Sri Ramakrishna Engineering College}
+\smallskip
+\smallskip
+\cvposition{\textbf{Student Chairperson -- } \emph{Elements 2k19}}{National Level Technical Symposium}{2019}{Department of Computer Science and Engineering -- Sri Ramakrishna Engineering College}
+\smallskip
+\smallskip
+\cvposition{\textbf{Organizing Head -- } \emph{Code -A- Thon}}{Coding Event at Elements 2k18, National Level Technical Symposium}{2018}{Department of Computer Science and Engineering -- Sri Ramakrishna Engineering College.}
+\smallskip
+\smallskip
+\cvposition{\textbf{Organizing Head -- } \emph{Blind Coding}}{Coding Event at NetZah 2018, National Level Technical Symposium}{2018}{Computer Soceity of India -- Sri Ramakrishna Engineering College.}
+\smallskip
+\smallskip
+\cvposition{\textbf{Executive Member -- } \emph{FOSS Club}}{Free and Open Source Software Club}{2017 -- 2018}{Sri Ramakrishna Engineering College.}
+\smallskip
+\smallskip
+\end{fullwidth}
+
+% \nocite{*}
+
+%  \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+% % \divider
+
+%  \printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}}, type=article]
+
+% \divider
+
+% \printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+
+% %% If the NEXT page doesn't start with a \cvsection but you'd
+% %% still like to add a sidebar, then use this command on THIS
+% %% page to add it. The optional argument lets you pull up the
+% %% sidebar a bit so that it looks aligned with the top of the
+% %% main column.
+% % \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}
